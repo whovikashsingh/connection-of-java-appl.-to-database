@@ -9,7 +9,7 @@ public class MyProjectOnJDBC {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Scanner sc = new Scanner(System.in);
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Query_Management_System", "root",
-                "khushi@01");
+                "root");
         System.out.println("Connected with Database\nWELCOME TO QUERY MANAGEMENT SYSTEM!!!!!");
         System.out.println(
                 "1.Execute any command except select\n2.Create Table\n3.Insert Data through Static query\n3.Insert Data through Dynamic Query\n4.Display Data\n5.Update Data6.Delete Table\n7.Exit");
